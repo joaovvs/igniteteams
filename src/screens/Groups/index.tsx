@@ -12,7 +12,8 @@ import { Button } from '@components/Button';
 
 
 export function Groups() {
-  const [groups, setGroups] = useState<string[]>([]);
+  const [groups, setGroups] = useState<string []>([]);
+
   return (
     <Container >
       <Header />
